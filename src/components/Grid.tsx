@@ -14,7 +14,6 @@ export function Grid({isVisualizationRunningRef}:{isVisualizationRunningRef:Muta
     if(isVisualizationRunningRef.current || checkIfStartOrEnd(row,col)){
         return;
     }
-
     setisMouseDown(true);
     const newGrid =createNewGrid(grid,row,col);
     setGrid(newGrid);
@@ -24,25 +23,19 @@ export function Grid({isVisualizationRunningRef}:{isVisualizationRunningRef:Muta
     if(isVisualizationRunningRef.current || checkIfStartOrEnd(row,col)){
         return;
     }
-
     setisMouseDown(false);
-    
   }
-
 
   const handleMouseEnter = (row:number ,col:number)=>{
     if(isVisualizationRunningRef.current || checkIfStartOrEnd(row,col)){
         return;
     }
-
-
     if(isMouseDown){
         const newGrid=createNewGrid(grid,row,col);
         setGrid(newGrid);
     }
     
   }
-  
 
   return (
     <div

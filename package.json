@@ -1,5 +1,5 @@
 {
-  "name": "pathfinding-visualizer",
+  "name": "MazeSolver",
   "private": true,
   "version": "0.0.0",
   "type": "module",

@@ -13,6 +13,7 @@ interface MouseFunction {
   (row: number, col: number): void;
 }
 
+
 export function Tile({
   row,
   col,

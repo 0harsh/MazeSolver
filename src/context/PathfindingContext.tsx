@@ -8,6 +8,11 @@ import {
   START_TILE_CONFIGURATION,
 } from "../utils/constants";
 
+
+
+
+
+
 interface PathfindingContextInterface {
   algorithm: AlgorithmType;
   setAlgorithm: (algorithm: AlgorithmType) => void;
@@ -18,6 +23,7 @@ interface PathfindingContextInterface {
   isGraphVisualized: boolean;
   setIsGraphVisualized: (isGraphVisualized: boolean) => void;
 }
+
 
 export const PathfindingContext = createContext<
   PathfindingContextInterface | undefined

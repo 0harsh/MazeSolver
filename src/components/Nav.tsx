@@ -17,7 +17,7 @@ import { PlayButton } from "./PlayButton";
 import { runPathfindingAlgorithm } from "../utils/runPathfindingAlgorithms";
 import { animatePath } from "../utils/animatePath";
 
-export function Nav({
+export function  Nav({
   isVisualizationRunningRef,
 }: {
   isVisualizationRunningRef: MutableRefObject<boolean>;

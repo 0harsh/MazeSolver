@@ -17,7 +17,7 @@ export const SpeedProvider = ({ children }: { children: ReactNode }) => {
     <SpeedContext.Provider
       value={{
         speed,
-        setSpeed,
+        setSpeed
       }}
     >
       {children}
